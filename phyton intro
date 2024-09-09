@@ -1,0 +1,18 @@
+idade = int(input('Digite sua idade: '))
+
+#idade menor ou igual a 10 e idade maior a 20, qualquer numero de 10 a 20 vai ativar essa parte do codigo
+if idade >= 10 and idade < 20:
+#é a mensagem transmitida quando essa parte do codigo é ativada
+     print('Você é adolescente')
+#idade menor ou igual a 20 e idade maior a 30, qualquer numero de 20 a 30 vai ativar essa parte do codigo
+elif idade >= 20 and idade < 30:
+#é a mensagem transmitida quando essa parte do codigo é ativada
+     print('Você é jovem')
+#idade menor ou igual a 30 e idade maior ou igual a 100, qualquer numero de 30 a 100 vai ativar essa parte do codigo
+elif idade >= 30 and idade <= 100:
+#é a mensagem transmitida quando essa parte do codigo é ativada
+     print('Você é adulto')
+#caso nenhum dos requisitos do codigo forem atendidos essa parte do codigo é ativada
+else:
+#é a mensagem transmitida quando essa parte do codigo é ativada
+     print('Valor não encontrado!')
